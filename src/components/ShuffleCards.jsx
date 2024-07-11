@@ -1,23 +1,20 @@
-import { motion } from "framer-motion";
 import React from "react";
 import { NavHashLink } from "react-router-hash-link";
+import Video from "../assets/Bg-video.mp4";
 export default function Grid() {
   return (
     <div id="home" className=" w-screen h-fit relative bg-blue-500 font-mono">
-      <section className=" w-full grid grid-cols-5 md:grid-cols-12 h-screen overflow-y-clip">
-        {Array.from(Array(50 * 12), (i, index) => (
-          <motion.div
-            key={index}
-            className=" aspect-square bg-blue-500 border border-blue-400 "
-            whileHover={{ backgroundColor: "#B15EFF" }}
-            transition={{ duration: 3, ease: "easeOut" }}
-          />
-        ))}
-      </section>
-      <div
-        className=" flex flex-col h-[100vh] w-screen  absolute inset-0 text-white items-center justify-center pointer-events-none gap-2 md:gap-3 lg:pt-0
-         "
+      <video
+        autoPlay
+        loop
+        muted
+        controls={false}
+        className=" h-screen w-screen object-cover
+      "
       >
+        <source src={Video} type="video/mp4" />
+      </video>
+      <div className=" flex flex-col h-[100vh] w-screen  absolute inset-0 text-white items-center justify-center pointer-events-none gap-2 md:gap-3 lg:pt-0">
         <h1
           className=" text-2xl pointer-events-none"
           data-aos="fade-left"
@@ -26,14 +23,14 @@ export default function Grid() {
           Welcome to👋 ,
         </h1>
         <h1
-          className=" text-4xl text-center  z-[999] whitespace-nowrap md:text-wrap lg:text-nowrap md:text-6xl font-bold  pointer-events-none md:leading-[70px]"
+          className=" text-4xl text-center text-yellow-300 z-[999] whitespace-nowrap md:text-wrap lg:text-nowrap md:text-6xl font-bold  pointer-events-none md:leading-[70px]"
           data-aos="zoom-out"
           data-aos-duration="1000"
         >
           Parindeyy Wings Of <br /> Imagination
         </h1>
         <p
-          className=" w-[90vw] lg:w-[55vw]  text-md text-center pointer-events-none hometext "
+          className=" w-[90vw] lg:w-[55vw] font-light  text-md text-center pointer-events-none hometext "
           data-aos="zoom-in"
           data-aos-duration="1500"
         >

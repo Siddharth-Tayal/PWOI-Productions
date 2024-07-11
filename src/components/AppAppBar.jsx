@@ -40,9 +40,7 @@ function AppAppBar({ mode, toggleColorMode }) {
               flexShrink: 0,
               borderRadius: "999px",
               bgcolor:
-                theme.palette.mode === "light"
-                  ? "rgba(255, 255, 255, 0.8)"
-                  : "rgba(0, 0, 0, 0.4)",
+                theme.palette.mode === "light" ? "white" : "rgba(0, 0, 0, 0.4)",
               backdropFilter: "blur(24px)",
               maxHeight: 40,
               border: "1px solid",
@@ -159,12 +157,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                       alignItems: "end",
                       flexGrow: 1,
                     }}
-                  >
-                    {/* <ToggleColorMode
-                      mode={mode}
-                      toggleColorMode={toggleColorMode}
-                    /> */}
-                  </Box>{" "}
+                  ></Box>{" "}
                   <div className="flex flex-col items-start justify-start pl-4 gap-4 pb-4 pt-4">
                     <NavHashLink to={"/#features"} smoothScroll={true}>
                       Services

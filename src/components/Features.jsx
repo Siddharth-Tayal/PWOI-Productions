@@ -22,9 +22,9 @@ const items = [
     description:
       "Parindeyy Wings of Imagination (PWOI) is a leading provider of comprehensive event management services, catering to government, corporate, and private events. ",
     imageLight:
-      'url("https://scontent.fixc8-3.fna.fbcdn.net/v/t39.30808-6/340657703_6066581943448568_7245562930474518499_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=vKU9wCbVDrYQ7kNvgGboMob&_nc_ht=scontent.fixc8-3.fna&oh=00_AYDHuEfHBJehSEujXHZoK85F6jQCLOZofPWYqPBkFmopFA&oe=66918040")',
+      'url("https://images.unsplash.com/photo-1602501155404-05a477134703?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG9saXRpY2FsJTIwY2FtcGFpZ258ZW58MHx8MHx8fDA%3D")',
     imageDark:
-      'url("https://scontent.fixc8-3.fna.fbcdn.net/v/t39.30808-6/340657703_6066581943448568_7245562930474518499_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=vKU9wCbVDrYQ7kNvgGboMob&_nc_ht=scontent.fixc8-3.fna&oh=00_AYDHuEfHBJehSEujXHZoK85F6jQCLOZofPWYqPBkFmopFA&oe=66918040")',
+      'url("https://plus.unsplash.com/premium_photo-1661353245572-5e41f6208de8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXVkaW8lMjB2aXN1YWxzfGVufDB8fDB8fHww")',
   },
   {
     icon: <Psychology />,
@@ -33,7 +33,7 @@ const items = [
     description:
       "Parindeyy Wings of Imagination (PWOI) excels in film and song production, offering comprehensive services from conceptualization to distribution. ",
     imageLight:
-      'url("https://plus.unsplash.com/premium_photo-1710961232986-36cead00da3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZpbG0lMjBwcm9kdWN0aW9uJTIwaG91c2V8ZW58MHx8MHx8fDA%3D")',
+      'url("https://images.unsplash.com/photo-1703117104853-31800b2e2a70?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWl4aW5nJTIwYW5kJTIwbWFzdGVyaW5nfGVufDB8fDB8fHww")',
     imageDark:
       'url("https://plus.unsplash.com/premium_photo-1710961232986-36cead00da3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZpbG0lMjBwcm9kdWN0aW9uJTIwaG91c2V8ZW58MHx8MHx8fDA%3D")',
   },
@@ -44,7 +44,7 @@ const items = [
     description:
       "Parindeyy Wings of Imagination (PWOI) excels in managing and organizing school and college functions, offering a full suite of services to ensure a seamless and memorable experience.",
     imageLight:
-      'url("https://media.istockphoto.com/id/1849651115/photo/open-red-theatre-stage-curtains.webp?b=1&s=170667a&w=0&k=20&c=E05R-kIEQx1m6OL7zsqfU7WhSKtfazOImWMJjppaN24=")',
+      'url("https://images.unsplash.com/photo-1527269534026-c86f4009eace?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Nob29sJTIwcGFydGllc3xlbnwwfHwwfHx8MA%3D%3D")',
     imageDark:
       'url("https://media.istockphoto.com/id/1849651115/photo/open-red-theatre-stage-curtains.webp?b=1&s=170667a&w=0&k=20&c=E05R-kIEQx1m6OL7zsqfU7WhSKtfazOImWMJjppaN24=")',
   },
