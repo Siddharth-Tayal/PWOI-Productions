@@ -64,13 +64,19 @@ export default function Features() {
       <Grid container spacing={6}>
         <Grid item xs={12} md={6}>
           <div>
-            <Typography component="h2" variant="h4" color="text.primary">
+            <Typography
+              component="h2"
+              variant="h4"
+              color="text.primary"
+              data-aos="fade-right"
+            >
               Services
             </Typography>
             <Typography
               variant="body1"
               color="text.secondary"
               sx={{ mb: { xs: 2, sm: 4 } }}
+              data-aos="fade-left"
             >
               Here is overview of the key Services provided by the Parindeyy
               Studios. Our main services includes Event planning and Organising
@@ -80,6 +86,7 @@ export default function Features() {
           <Grid
             container
             item
+            data-aos="zoom-out"
             gap={1}
             sx={{ display: { xs: "auto", sm: "none" } }}
           >
@@ -112,6 +119,7 @@ export default function Features() {
           </Grid>
           <Box
             component={Card}
+            data-aos="flip-right"
             variant="outlined"
             sx={{
               display: { xs: "auto", sm: "none" },
@@ -131,6 +139,7 @@ export default function Features() {
             />
             <Box sx={{ px: 2, pb: 2 }}>
               <Typography
+                data-aos="zoom-out"
                 color="text.primary"
                 variant="body2"
                 fontWeight="bold"
@@ -142,6 +151,7 @@ export default function Features() {
                 variant="body2"
                 sx={{ my: 0.5 }}
                 className=" line-clamp-4"
+                data-aos="zoom-right"
               >
                 {selectedFeature.description}
               </Typography>
@@ -149,7 +159,7 @@ export default function Features() {
                 color="primary"
                 variant="body2"
                 fontWeight="bold"
-                // href={`${selectedFeature.url}`}
+                data-aos="zoom-out"
                 sx={{
                   display: "inline-flex",
                   alignItems: "center",
@@ -178,6 +188,7 @@ export default function Features() {
             {items.map(({ icon, title, description, url }, index) => (
               <Card
                 key={index}
+                data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
                 variant="outlined"
                 component={Button}
                 onClick={() => handleItemClick(index)}
@@ -273,6 +284,7 @@ export default function Features() {
           sx={{ display: { xs: "none", sm: "flex" }, width: "100%" }}
         >
           <Card
+            data-aos="zoom-out"
             variant="outlined"
             className="flex items-center justify-center"
             sx={{

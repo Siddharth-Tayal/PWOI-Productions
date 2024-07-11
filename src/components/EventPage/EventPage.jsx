@@ -277,6 +277,7 @@ function EventPage() {
     },
   ];
   useEffect(() => {
+    window.scrollTo(0, 0);
     const myEvent = items.filter((item) => item.url.includes(url));
     setCurrentItem(myEvent[0]);
     window.scrollTo(0, 0);

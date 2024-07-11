@@ -31,10 +31,14 @@ export default function Team() {
             textAlign: { sm: "left", md: "center" },
           }}
         >
-          <Typography component="h2" variant="h4">
+          <Typography component="h2" variant="h4" data-aos="fade-left">
             Meet the Team
           </Typography>
-          <Typography variant="body1" sx={{ color: "grey.400" }}>
+          <Typography
+            variant="body1"
+            sx={{ color: "grey.400" }}
+            data-aos="fade-right"
+          >
             Our experienced team brings a wealth of creativity and expertise to
             every event , ensuring a unique and memorable experience tailored to
             your needs.
@@ -43,6 +47,7 @@ export default function Team() {
 
         <Marquee>
           <Stack
+            data-aos="fade-up"
             direction="column"
             color="inherit"
             component={Card}
@@ -89,6 +94,7 @@ export default function Team() {
           </Stack>
           <Stack
             direction="column"
+            data-aos="fade-down"
             color="inherit"
             component={Card}
             spacing={1}
@@ -133,6 +139,7 @@ export default function Team() {
             </div>
           </Stack>
           <Stack
+            data-aos="fade-up"
             direction="column"
             color="inherit"
             component={Card}
@@ -178,6 +185,7 @@ export default function Team() {
             </div>
           </Stack>
           <Stack
+            data-aos="fade-down"
             direction="column"
             color="inherit"
             component={Card}

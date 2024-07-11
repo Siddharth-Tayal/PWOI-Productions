@@ -11,6 +11,8 @@ import QueryStatsRoundedIcon from "@mui/icons-material/QueryStatsRounded";
 import SettingsSuggestRoundedIcon from "@mui/icons-material/SettingsSuggestRounded";
 import SupportAgentRoundedIcon from "@mui/icons-material/SupportAgentRounded";
 import ThumbUpAltRoundedIcon from "@mui/icons-material/ThumbUpAltRounded";
+import Video from "../assets/Bg-video.mp4";
+
 const items = [
   {
     icon: <SettingsSuggestRoundedIcon />,
@@ -79,75 +81,105 @@ const items = [
 
 export default function Highlights() {
   return (
-    <Box
-      id="highlights"
-      sx={{
-        pt: { xs: 4, sm: 12 },
-        pb: { xs: 8, sm: 16 },
-        color: "white",
-        bgcolor: "#06090a",
-      }}
-    >
-      <Container
-        sx={{
-          position: "relative",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          gap: { xs: 3, sm: 6 },
-        }}
+    <div className="relative h-auto overflow-hidden">
+      {/* <video
+        // autoPlay
+        // loop
+        muted
+        controls={false}
+        className=" h-screen w-screen object-cover
+      "
       >
+        <source src={Video} type="video/mp4" />
+      </video> */}
+      <img
+        className=" h-[100%] w-screen blur-sm absolute inset-0"
+        src="https://scontent.fixc8-2.fna.fbcdn.net/v/t39.30808-6/340642377_1365608570885998_8614162721002772244_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Y-RcTYWtiG8Q7kNvgEmERwE&_nc_ht=scontent.fixc8-2.fna&oh=00_AYCtRP-Etchhl9DPly3t54Vm9dD7Y9n47sOo0i4mdO9AFw&oe=66917FB0"
+      />{" "}
+      <div className=" block inset-0">
         <Box
+          id="highlights"
           sx={{
-            width: { sm: "100%", md: "60%" },
-            textAlign: { sm: "left", md: "center" },
+            pt: { xs: 4, sm: 12 },
+            pb: { xs: 8, sm: 16 },
+            color: "white",
           }}
         >
-          <Typography component="h2" variant="h4">
-            Highlights
-          </Typography>
-          <Typography variant="body1" sx={{ color: "grey.400" }}>
-            Parindeyy Wings of Imagination (PWOI) stands out for its meticulous
-            attention to detail, creative solutions, and unwavering commitment
-            to excellence, ensuring every event is a seamless and extraordinary
-            experience.
-          </Typography>
-        </Box>
-        <Grid container spacing={2.5}>
-          {items.map((item, index) => (
-            <Grid item xs={12} sm={6} md={4} key={index}>
-              <a href={`${item.title}`} target="_blank">
-                <Stack
-                  direction="column"
-                  color="inherit"
-                  component={Card}
-                  spacing={1}
-                  useFlexGap
-                  sx={{
-                    p: 3,
-                    height: "100%",
-                    border: "1px solid",
-                    borderColor: "grey.800",
-                    background: "transparent",
-                    backgroundColor: "grey.900",
-                  }}
-                  className=" hover:bg-gray-700"
-                >
-                  <Box sx={{ opacity: "50%" }}>{item.icon}</Box>
-                  <div>
-                    <Typography fontWeight="medium" gutterBottom>
-                      {item.title}
-                    </Typography>
-                    <Typography variant="body2" sx={{ color: "grey.400" }}>
-                      {item.description}
-                    </Typography>
+          <Container
+            sx={{
+              position: "relative",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: { xs: 3, sm: 6 },
+            }}
+          >
+            <Box
+              sx={{
+                width: { sm: "100%", md: "60%" },
+                textAlign: { sm: "left", md: "center" },
+              }}
+            >
+              <Typography
+                color={"white"}
+                component="h2"
+                variant="h4"
+                data-aos="zoom-out"
+              >
+                Highlights
+              </Typography>
+              <Typography
+                variant="body1"
+                sx={{ color: "grey.200" }}
+                data-aos="zoom-in"
+              >
+                Parindeyy Wings of Imagination (PWOI) stands out for its
+                meticulous attention to detail, creative solutions, and
+                unwavering commitment to excellence, ensuring every event is a
+                seamless and extraordinary experience.
+              </Typography>
+            </Box>
+            <Grid container spacing={2.5}>
+              {items.map((item, index) => (
+                <Grid item xs={12} sm={6} md={4} key={index}>
+                  <div
+                    aos-duration="2000"
+                    className=" cursor-pointer"
+                    data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+                  >
+                    <Stack
+                      direction="column"
+                      color="inherit"
+                      component={Card}
+                      spacing={1}
+                      useFlexGap
+                      sx={{
+                        p: 3,
+                        height: "100%",
+                        border: "2px solid",
+                        borderColor: "white",
+                        background: "transparent",
+                        bgcolor: "black",
+                      }}
+                      className=" bg-blue-600 hover:bg-gray-700"
+                    >
+                      <Box sx={{ opacity: "50%" }}>{item.icon}</Box>
+                      <div>
+                        <Typography fontWeight="medium" gutterBottom>
+                          {item.title}
+                        </Typography>
+                        <Typography variant="body2" sx={{ color: "grey.400" }}>
+                          {item.description}
+                        </Typography>
+                      </div>
+                    </Stack>
                   </div>
-                </Stack>
-              </a>
+                </Grid>
+              ))}
             </Grid>
-          ))}
-        </Grid>
-      </Container>
-    </Box>
+          </Container>
+        </Box>
+      </div>
+    </div>
   );
 }

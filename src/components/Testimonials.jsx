@@ -100,10 +100,15 @@ export default function Testimonials() {
           textAlign: { sm: "left", md: "center" },
         }}
       >
-        <Typography component="h2" variant="h4" color="text.primary">
+        <Typography
+          component="h2"
+          variant="h4"
+          color="text.primary"
+          data-aos="zoom-in"
+        >
           Testimonials
         </Typography>
-        <Typography variant="body1" color="text.secondary">
+        <Typography variant="body1" color="text.secondary" data-aos="zoom-out">
           See what our customers love about our Events. Discover how we excel in
           efficiency, and satisfaction. Join us for quality, expert team, and
           reliable support.
@@ -113,6 +118,7 @@ export default function Testimonials() {
         {userTestimonials.map((testimonial, index) => (
           <Grid item xs={12} sm={6} md={4} key={index} sx={{ display: "flex" }}>
             <Card
+              data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
               sx={{
                 display: "flex",
                 flexDirection: "column",

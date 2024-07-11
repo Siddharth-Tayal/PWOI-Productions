@@ -10,11 +10,10 @@ import Typography from "@mui/material/Typography";
 import MenuItem from "@mui/material/MenuItem";
 import Drawer from "@mui/material/Drawer";
 import MenuIcon from "@mui/icons-material/Menu";
-import ToggleColorMode from "./ToggleColorMode";
 import { Link, useNavigate } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import LOGO from "../assets/PwoiLogo.png";
-function AppAppBar({ mode, toggleColorMode }) {
+function AppAppBar() {
   const [open, setOpen] = React.useState(false);
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
@@ -216,9 +215,9 @@ function AppAppBar({ mode, toggleColorMode }) {
   );
 }
 
-AppAppBar.propTypes = {
-  mode: PropTypes.oneOf(["dark", "light"]).isRequired,
-  toggleColorMode: PropTypes.func.isRequired,
-};
+// AppAppBar.propTypes = {
+//   mode: PropTypes.oneOf(["dark", "light"]).isRequired,
+//   toggleColorMode: PropTypes.func.isRequired,
+// };
 
 export default AppAppBar;

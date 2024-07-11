@@ -2,12 +2,9 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-import SettingsSuggestRoundedIcon from "@mui/icons-material/SettingsSuggestRounded";
 import Marquee from "react-fast-marquee";
-import { Avatar } from "@mui/material";
 export default function RecentShows() {
   return (
     <Box
@@ -34,10 +31,14 @@ export default function RecentShows() {
             textAlign: { sm: "left", md: "center" },
           }}
         >
-          <Typography component="h2" variant="h4">
+          <Typography component="h2" variant="h4" data-aos="fade-down">
             Recent Shows
           </Typography>
-          <Typography variant="body1" sx={{ color: "grey.400" }}>
+          <Typography
+            variant="body1"
+            sx={{ color: "grey.400" }}
+            data-aos="fade-left"
+          >
             Our experienced team brings a wealth of creativity and expertise to
             every event , ensuring a unique and memorable experience tailored to
             your needs.
@@ -49,6 +50,7 @@ export default function RecentShows() {
             color="inherit"
             component={Card}
             spacing={1}
+            data-aos="fade-up"
             useFlexGap
             sx={{
               py: 2,
