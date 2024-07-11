@@ -44,7 +44,7 @@ export default function RecentShows() {
             your needs.
           </Typography>
         </Box>
-        <Marquee>
+        <Marquee pauseOnHover={true}>
           <Stack
             direction="column"
             color="inherit"

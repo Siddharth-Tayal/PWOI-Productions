@@ -45,7 +45,7 @@ export default function Team() {
           </Typography>
         </Box>
 
-        <Marquee>
+        <Marquee pauseOnHover={true}>
           <Stack
             data-aos="fade-up"
             direction="column"
@@ -80,7 +80,7 @@ export default function Team() {
                 </div>
               </div>{" "}
             </Box>
-            <div>
+            <div className="">
               <Typography variant="body2" sx={{ color: "grey.400" }}>
                 Avinash Chauhan is a distinguished choreographer and dance
                 performer, serving as the Managing Director at PWOI. He earned

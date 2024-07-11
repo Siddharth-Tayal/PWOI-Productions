@@ -23,7 +23,7 @@ export default function Grid() {
           Welcome to👋 ,
         </h1>
         <h1
-          className=" text-4xl text-center text-yellow-300 z-[999] whitespace-nowrap md:text-wrap lg:text-nowrap md:text-6xl font-bold  pointer-events-none md:leading-[70px]"
+          className=" text-4xl text-center text-red-400 z-[999] whitespace-nowrap md:text-wrap lg:text-nowrap md:text-6xl font-bold  pointer-events-none md:leading-[70px]"
           data-aos="zoom-out"
           data-aos-duration="1000"
         >
