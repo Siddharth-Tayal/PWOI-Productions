@@ -14,23 +14,23 @@ export default function Grid() {
       >
         <source src={Video} type="video/mp4" />
       </video>
-      <div className=" flex flex-col h-[100vh] w-screen  absolute inset-0 text-white items-center justify-center pointer-events-none gap-2 md:gap-3 lg:pt-0">
+      <div className=" flex flex-col h-[100vh] w-screen  absolute inset-0 text-white items-center justify-center pointer-events-none gap-2 md:gap-3  lg:pt-0">
         <h1
-          className=" text-2xl pointer-events-none"
+          className=" text-2xl pointer-events-none font-bold"
           data-aos="fade-left"
           data-aos-duration="3000"
         >
-          Welcome to👋 ,
+          Welcome to,
         </h1>
         <h1
-          className=" text-3xl sm:text-4xl text-center text-red-400 z-[999] whitespace-nowrap md:text-wrap lg:text-nowrap md:text-6xl font-extrabold  pointer-events-none md:leading-[70px]"
+          className=" text-3xl sm:text-4xl text-center text-red-400 z-[999] whitespace-nowrap md:text-wrap lg:text-nowrap md:text-6xl font-extrabold  pointer-events-none md:leading-[70px] maintext"
           data-aos="zoom-out"
           data-aos-duration="1000"
         >
           Parindeyy Wings Of <br /> Imagination
         </h1>
         <p
-          className=" w-[90vw] lg:w-[55vw] font-light  text-md text-center pointer-events-none hometext "
+          className=" w-[90vw] lg:w-[55vw]   text-md text-center pointer-events-none hometext "
           data-aos="zoom-in"
           data-aos-duration="1500"
         >
@@ -43,11 +43,13 @@ export default function Grid() {
           to conveyance to Pwoi organisation.
         </p>
         <button
-          data-aos="fade-right"
-          data-aos-duration="2000"
-          className=" hover:scale-110 duration-300 text-neutral-100 rounded-full text-xl md:text-3xl bg-orange-700 px-10 py-3 border border-white pointer-events-auto"
+          // data-aos="fade-right"
+          // data-aos-duration="2000"
+          className=" hover:scale-110 font-semibold duration-300 text-neutral-100 rounded-full text-xl md:text-3xl bg-red-500 px-10 py-3 border border-white pointer-events-auto"
         >
-          <NavHashLink to={"/#features"}>Explore Now </NavHashLink>
+          <NavHashLink className={" hover:scale-110"} to={"/#features"}>
+            Explore Now{" "}
+          </NavHashLink>
         </button>{" "}
       </div>
     </div>
