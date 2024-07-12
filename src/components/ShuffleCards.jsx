@@ -23,7 +23,7 @@ export default function Grid() {
           Welcome to👋 ,
         </h1>
         <h1
-          className=" text-4xl text-center text-red-400 z-[999] whitespace-nowrap md:text-wrap lg:text-nowrap md:text-6xl font-bold  pointer-events-none md:leading-[70px]"
+          className=" text-3xl sm:text-4xl text-center text-red-400 z-[999] whitespace-nowrap md:text-wrap lg:text-nowrap md:text-6xl font-extrabold  pointer-events-none md:leading-[70px]"
           data-aos="zoom-out"
           data-aos-duration="1000"
         >
@@ -45,7 +45,7 @@ export default function Grid() {
         <button
           data-aos="fade-right"
           data-aos-duration="2000"
-          className=" hover:scale-110 duration-300 text-neutral-100 rounded-full text-xl md:text-3xl bg-orange-500 px-10 py-3 border border-white pointer-events-auto"
+          className=" hover:scale-110 duration-300 text-neutral-100 rounded-full text-xl md:text-3xl bg-orange-700 px-10 py-3 border border-white pointer-events-auto"
         >
           <NavHashLink to={"/#features"}>Explore Now </NavHashLink>
         </button>{" "}

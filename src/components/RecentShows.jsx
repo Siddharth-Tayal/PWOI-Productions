@@ -13,7 +13,7 @@ export default function RecentShows() {
         pt: { xs: 4, sm: 12 },
         pb: { xs: 8, sm: 16 },
         color: "white",
-        bgcolor: "#06090a",
+        bgcolor: "white",
       }}
     >
       <Container
@@ -31,7 +31,12 @@ export default function RecentShows() {
             textAlign: { sm: "left", md: "center" },
           }}
         >
-          <Typography component="h2" variant="h4" data-aos="fade-down">
+          <Typography
+            component="h2"
+            variant="h4"
+            color={"#06090a"}
+            data-aos="fade-down"
+          >
             Recent Shows
           </Typography>
           <Typography
