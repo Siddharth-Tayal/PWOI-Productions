@@ -5,6 +5,10 @@ import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Marquee from "react-fast-marquee";
+import Image1 from "../assets/1.jpg";
+import Image2 from "../assets/2.jpg";
+import Image3 from "../assets/3.jpg";
+import Image4 from "../assets/4.jpg";
 export default function RecentShows() {
   return (
     <Box
@@ -117,7 +121,7 @@ export default function RecentShows() {
               {" "}
               <img
                 className=" h-[200px] w-full"
-                src="https://scontent.fixc8-1.fna.fbcdn.net/v/t39.30808-6/404286928_315710004655642_6855734351818932488_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=0E6zO1qHhwcQ7kNvgE9gyfc&_nc_ht=scontent.fixc8-1.fna&oh=00_AYAQ3XhL-7c4mfhEzDh9I-nRGyPkMn8gtvmcKkTsY3o8tQ&oe=66917781"
+                src="https://i.ytimg.com/vi/JaHT0tWjJJ4/maxresdefault.jpg"
               />{" "}
               <div className=" flex items-center justify-between">
                 <Typography fontWeight="bold" gutterBottom>
@@ -163,7 +167,7 @@ export default function RecentShows() {
               {" "}
               <img
                 className=" h-[200px] w-full"
-                src="https://scontent.fixc8-1.fna.fbcdn.net/v/t39.30808-6/393684259_296700946556548_1678831183804708731_n.jpg?stp=dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ly73BW1c3iUQ7kNvgEtEgKk&_nc_ht=scontent.fixc8-1.fna&oh=00_AYCjzFKVP4S2w8Uek0vmx2tVwlN6yBJnWoesorCF-viKKg&oe=668EC218"
+                src="https://i.ytimg.com/vi/JaHT0tWjJJ4/maxresdefault.jpg"
               />{" "}
               <div className=" flex items-center justify-between">
                 <Typography fontWeight="bold" gutterBottom>

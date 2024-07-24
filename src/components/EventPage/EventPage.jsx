@@ -6,7 +6,21 @@ import Card from "./Card";
 import Loader from "./Loader";
 import { Divider } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
-
+import Image1 from "../../assets/1.jpg";
+import Image2 from "../../assets/2.jpg";
+import Image3 from "../../assets/3.jpg";
+import Image4 from "../../assets/4.jpg";
+import Image5 from "../../assets/5.jpg";
+import Image6 from "../../assets/6.jpg";
+import Image7 from "../../assets/7.jpg";
+import Image8 from "../../assets/8.jpg";
+import Image9 from "../../assets/9.jpg";
+import Image10 from "../../assets/10.jpg";
+import Image11 from "../../assets/11.jpg";
+import Image12 from "../../assets/12.jpg";
+import Image13 from "../../assets/13.jpg";
+import Image14 from "../../assets/14.jpg";
+import Image15 from "../../assets/15.jpg";
 function EventPage() {
   const url = useParams()?.id;
   const [currentItem, setCurrentItem] = useState({});
@@ -89,11 +103,21 @@ function EventPage() {
       obj3: {
         heading: "Image Gallery",
         imgGallery: [
-          "https://scontent.fixc8-2.fna.fbcdn.net/v/t39.30808-6/340921592_8993102814095259_2193422945833065329_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qxBUv6CqebYQ7kNvgHxYVHS&_nc_ht=scontent.fixc8-2.fna&oh=00_AYA23CrLsHvT4tv3EV3e1dWReOynTf9DawpSxcy_6suyHw&oe=6691836B",
-          "https://scontent.fixc8-3.fna.fbcdn.net/v/t39.30808-6/340657703_6066581943448568_7245562930474518499_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=vKU9wCbVDrYQ7kNvgGboMob&_nc_ht=scontent.fixc8-3.fna&oh=00_AYDHuEfHBJehSEujXHZoK85F6jQCLOZofPWYqPBkFmopFA&oe=66918040",
-          "https://scontent.fixc8-3.fna.fbcdn.net/v/t39.30808-6/413900656_333205496239426_9106631655271455356_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DZlq7xmrxq8Q7kNvgGfxwN6&_nc_ht=scontent.fixc8-3.fna&oh=00_AYB-wyxy2y-G0VWhPRTSerNT9yRd7Axai-lx1DL0R8PuZw&oe=669173DD",
-          "https://scontent.fixc8-2.fna.fbcdn.net/v/t39.30808-6/420968862_349572987936010_3272607495742199860_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=raBxFeoAJskQ7kNvgFCS7y6&_nc_ht=scontent.fixc8-2.fna&oh=00_AYDNvhN_AreCovEhVmjYFcBX_Y-SeZOT45Qtw4BPqn5qlA&oe=6691A201",
-          "https://scontent.fixc8-3.fna.fbcdn.net/v/t39.30808-6/435096321_395805946646047_165711020108868224_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=u8jtYV-R-pkQ7kNvgFTFxeU&_nc_ht=scontent.fixc8-3.fna&oh=00_AYDvp00ysm-NGJ-krKKX5vE6Dgg6cf443YIOJmXmEPfJPA&oe=6691794A",
+          Image1,
+          Image2,
+          Image3,
+          Image4,
+          Image5,
+          Image6,
+          Image7,
+          Image8,
+          Image9,
+          Image10,
+          Image11,
+          Image12,
+          Image13,
+          Image14,
+          Image15,
         ],
         description2: "",
         img: "https://plus.unsplash.com/premium_photo-1714618939758-84f1dd5e229c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZpbG0lMjBwcm9kdWN0aW9uJTIwaG91c2UlMjBhbmQlMjBzb25nc3xlbnwwfHwwfHx8MA%3D%3D",
@@ -177,11 +201,21 @@ function EventPage() {
       obj3: {
         heading: "Image Gallery",
         imgGallery: [
-          "https://scontent.fixc8-1.fna.fbcdn.net/v/t39.30808-6/310586884_105436162349695_7144223585762826391_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=R-SA-ka3Td0Q7kNvgGIcBuS&_nc_ht=scontent.fixc8-1.fna&oh=00_AYDjJ43GfJ0GjM22570O3ADXmX0INVu3ioLeLggj1DuYHw&oe=66917EB0",
-          "https://scontent.fixc8-1.fna.fbcdn.net/v/t39.30808-6/310762950_105435999016378_5908570823830921867_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=-omYXYLWsaYQ7kNvgFapnX8&_nc_ht=scontent.fixc8-1.fna&oh=00_AYAXlZPFMYp4ym_OBs6JSvC2tU4VRjUH2M2RRyHJG8YGtQ&oe=66916CD2",
-          "https://scontent.fixc8-3.fna.fbcdn.net/v/t39.30808-6/311463236_110081911885120_2268121862384153596_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OmvQoMUWTfYQ7kNvgHg0ZZJ&_nc_ht=scontent.fixc8-3.fna&oh=00_AYCicDhfUYYV2wY5SjVmQAgFGsOf6mNbbkp3VASssHkxpg&oe=669189E4",
-          "https://scontent.fixc8-1.fna.fbcdn.net/v/t39.30808-6/404281358_315650051328304_8818059261969428850_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=NRMR552w_yAQ7kNvgEnchKV&_nc_ht=scontent.fixc8-1.fna&oh=00_AYCBaW9GRG1naiz0oK3E-Q5Ipjqt1bNzocSsVDRAksOeRw&oe=6691A182",
-          "https://scontent.fixc8-2.fna.fbcdn.net/v/t39.30808-6/404354867_315710014655641_6017263220233086549_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ydr-N8ZekbEQ7kNvgE6y2Kd&_nc_ht=scontent.fixc8-2.fna&oh=00_AYBaJDmDrIFDCBpCyaVTVPYSzVwQIpuofdNyqb2VLCh92A&oe=66916E03",
+          Image1,
+          Image2,
+          Image3,
+          Image4,
+          Image5,
+          Image6,
+          Image7,
+          Image8,
+          Image9,
+          Image10,
+          Image11,
+          Image12,
+          Image13,
+          Image14,
+          Image15,
         ],
         description2: "",
         img: "https://plus.unsplash.com/premium_photo-1714618939758-84f1dd5e229c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZpbG0lMjBwcm9kdWN0aW9uJTIwaG91c2UlMjBhbmQlMjBzb25nc3xlbnwwfHwwfHx8MA%3D%3D",
@@ -265,11 +299,21 @@ function EventPage() {
       obj3: {
         heading: "Image Gallery",
         imgGallery: [
-          "https://scontent.fixc8-3.fna.fbcdn.net/v/t39.30808-6/340493515_754314172998715_2875583965403777976_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=wd2V3Px88n0Q7kNvgH9DkPS&_nc_ht=scontent.fixc8-3.fna&oh=00_AYDNp2WVjYWoV37WsCab2FwhmPx0ipBut_mhlUD0OFRBOg&oe=66917043",
-          "https://scontent.fixc8-2.fna.fbcdn.net/v/t39.30808-6/340642377_1365608570885998_8614162721002772244_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Y-RcTYWtiG8Q7kNvgEmERwE&_nc_ht=scontent.fixc8-2.fna&oh=00_AYCtRP-Etchhl9DPly3t54Vm9dD7Y9n47sOo0i4mdO9AFw&oe=66917FB0",
-          "https://scontent.fixc8-1.fna.fbcdn.net/v/t39.30808-6/311428587_110876925138952_2963939257565696037_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=c2TzgFcyxEQQ7kNvgECMxpA&_nc_ht=scontent.fixc8-1.fna&oh=00_AYDiGfBmNOwGkOvgmYiIKing_FliSiJFN-g3kX-8VcVEbQ&oe=6691A3D3",
-          "https://scontent.fixc8-3.fna.fbcdn.net/v/t39.30808-6/340520152_3388299211410574_5547759540453076686_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=KXi49Hwjt_wQ7kNvgHMbEmv&_nc_ht=scontent.fixc8-3.fna&oh=00_AYC5wI-yi50DYyniDE1G-p9FqSf83KWGif2G8QDgghvUbg&oe=669194ED",
-          "https://scontent.fixc8-1.fna.fbcdn.net/v/t39.30808-6/340899805_213211837993030_9013799238347086233_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ljg4VX9qlGAQ7kNvgEwIC8P&_nc_ht=scontent.fixc8-1.fna&oh=00_AYAM_l52dDQEUiG07sng4xt1P5NgYgEFly8bIaKuq1GvSg&oe=66917E98",
+          Image1,
+          Image2,
+          Image3,
+          Image4,
+          Image5,
+          Image6,
+          Image7,
+          Image8,
+          Image9,
+          Image10,
+          Image11,
+          Image12,
+          Image13,
+          Image14,
+          Image15,
         ],
         description2: "",
         img: "https://plus.unsplash.com/premium_photo-1714618939758-84f1dd5e229c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZpbG0lMjBwcm9kdWN0aW9uJTIwaG91c2UlMjBhbmQlMjBzb25nc3xlbnwwfHwwfHx8MA%3D%3D",
@@ -334,10 +378,10 @@ function EventPage() {
           </div>
         </div>
         <Divider />
-        <div className=" flex flex-col gap-7 p-7 pt-11">
+        <div className=" flex flex-col gap-7 p-7 px-0 md:px-7 pt-11">
           {" "}
           <Typography
-            className=" p-3"
+            className=" md:p-3"
             component="h2"
             variant="h4"
             color="text.primary"
@@ -347,7 +391,7 @@ function EventPage() {
           <Carousel interval={2000} animation="fade" swipe="true">
             {currentItem?.obj3?.imgGallery.map((item, i) => (
               <img
-                className=" w-[100vw] h-[30vh] md:h-[60vh] object-cover md:object-contain object-center mx-auto border-2 border-purple-400 p-4 bg-black"
+                className=" w-[100vw] h-[50vh] md:h-[60vh] object-cover md:object-contain object-center mx-auto border-2 border-purple-400 p-4 bg-black"
                 key={i}
                 src={item}
               />
