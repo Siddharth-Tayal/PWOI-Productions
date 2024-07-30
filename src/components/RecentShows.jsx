@@ -119,10 +119,7 @@ export default function RecentShows() {
           >
             <Box>
               {" "}
-              <img
-                className=" h-[200px] w-full"
-                src="https://i.ytimg.com/vi/JaHT0tWjJJ4/maxresdefault.jpg"
-              />{" "}
+              <img className=" h-[200px] w-full" src={Image4} />{" "}
               <div className=" flex items-center justify-between">
                 <Typography fontWeight="bold" gutterBottom>
                   DUSSHERA
@@ -165,10 +162,7 @@ export default function RecentShows() {
           >
             <Box>
               {" "}
-              <img
-                className=" h-[200px] w-full"
-                src="https://i.ytimg.com/vi/JaHT0tWjJJ4/maxresdefault.jpg"
-              />{" "}
+              <img className=" h-[200px] w-full" src={Image3} />{" "}
               <div className=" flex items-center justify-between">
                 <Typography fontWeight="bold" gutterBottom>
                   DANDIYA NIGHTS

@@ -1,4 +1,6 @@
 import * as React from "react";
+import { Suspense, lazy } from "react";
+
 import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import AppAppBar from "./components/AppAppBar";
@@ -7,13 +9,13 @@ import Highlights from "./components/Highlights";
 import Features from "./components/Features";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
-import DemoVideos from "./components/DemoVideos";
 import Team from "./components/Team";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Error from "./components/Error/Error";
 import EventPage from "./components/EventPage/EventPage";
 import RecentShows from "./components/RecentShows";
 import Aos from "aos";
+const DemoVideos = lazy(() => import("./components/DemoVideos"));
 
 export default function LandingPage() {
   React.useEffect(() => {
@@ -39,7 +41,11 @@ export default function LandingPage() {
                 <Divider />
                 <Highlights />
                 <Divider />
-                <DemoVideos />
+                {
+                  <Suspense fallback={<h1>Loading...</h1>}>
+                    <DemoVideos />
+                  </Suspense>
+                }
                 <Divider />
                 <Team />
               </>

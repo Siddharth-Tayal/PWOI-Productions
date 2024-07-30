@@ -106,7 +106,7 @@ export default function Testimonials() {
           color="text.primary"
           data-aos="zoom-in"
         >
-          Testimonials
+          What people loves about us...
         </Typography>
         <Typography variant="body1" color="text.secondary" data-aos="zoom-out">
           See what our customers love about our Events. Discover how we excel in

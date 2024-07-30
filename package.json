@@ -32,7 +32,8 @@
     "react-material-ui-carousel": "^3.4.2",
     "react-router-dom": "^6.23.1",
     "react-router-hash-link": "^2.4.3",
-    "react-typed": "^2.0.12"
+    "react-typed": "^2.0.12",
+    "sitemap": "^8.0.0"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
