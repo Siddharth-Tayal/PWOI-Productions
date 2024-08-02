@@ -12,7 +12,7 @@ import SettingsSuggestRoundedIcon from "@mui/icons-material/SettingsSuggestRound
 import SupportAgentRoundedIcon from "@mui/icons-material/SupportAgentRounded";
 import ThumbUpAltRoundedIcon from "@mui/icons-material/ThumbUpAltRounded";
 import Video from "../assets/Bg-video.mp4";
-
+import Image from "../assets/BgImageHighlights.jpg";
 const items = [
   {
     icon: <SettingsSuggestRoundedIcon />,
@@ -94,7 +94,7 @@ export default function Highlights() {
       </video> */}
       <img
         className=" h-[100%] w-screen blur-sm absolute inset-0"
-        src="https://scontent.fixc10-2.fna.fbcdn.net/v/t39.30808-6/340520152_3388299211410574_5547759540453076686_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=RqavbIqfE4kQ7kNvgEuiMWd&_nc_ht=scontent.fixc10-2.fna&oh=00_AYDR0OtRIRGRU6YMi3PZF_eAgdaCSmaKp9pNjtE3s98ang&oe=66A12EAD"
+        src={Image}
       />{" "}
       <div className=" block inset-0">
         <Box

@@ -12,6 +12,7 @@ import Typography from "@mui/material/Typography";
 import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
 import EdgesensorHighRoundedIcon from "@mui/icons-material/EdgesensorHighRounded";
 import { DesignServices, Language, Psychology } from "@mui/icons-material";
+
 const items = [
   {
     icon: <EdgesensorHighRoundedIcon />,
@@ -42,8 +43,8 @@ const items = [
     url: "feature/schools-colleges-functions",
     description:
       "Parindeyy Wings of Imagination (PWOI) excels in managing and organizing school and college functions, offering a full suite of services to ensure a seamless and memorable experience.",
-    imageLight: `url("https://scontent.fixc10-2.fna.fbcdn.net/v/t39.30808-6/340520152_3388299211410574_5547759540453076686_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=RqavbIqfE4kQ7kNvgEuiMWd&_nc_ht=scontent.fixc10-2.fna&oh=00_AYDR0OtRIRGRU6YMi3PZF_eAgdaCSmaKp9pNjtE3s98ang&oe=66A12EAD")`,
-    imageDark: `url("https://scontent.fixc10-2.fna.fbcdn.net/v/t39.30808-6/340520152_3388299211410574_5547759540453076686_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=RqavbIqfE4kQ7kNvgEuiMWd&_nc_ht=scontent.fixc10-2.fna&oh=00_AYDR0OtRIRGRU6YMi3PZF_eAgdaCSmaKp9pNjtE3s98ang&oe=66A12EAD")`,
+    imageLight: `url("https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGolMjBuaWdodCUyMHB1cnBsZSUyMGxpZ2h0fGVufDB8fDB8fHww")`,
+    imageDark: `url("https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGolMjBuaWdodCUyMHB1cnBsZSUyMGxpZ2h0fGVufDB8fDB8fHww")`,
   },
 ];
 
