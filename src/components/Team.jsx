@@ -45,7 +45,7 @@ export default function Team() {
           </Typography>
         </Box>
 
-        <Marquee pauseOnHover={true}>
+        <Marquee pauseOnHover={true} className=" overflow-y-hidden">
           <Stack
             data-aos="fade-up"
             direction="column"

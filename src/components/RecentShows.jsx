@@ -53,7 +53,7 @@ export default function RecentShows() {
             your needs.
           </Typography>
         </Box>
-        <Marquee pauseOnHover={true}>
+        <Marquee pauseOnHover={true} className=" overflow-y-hidden">
           <Stack
             direction="column"
             color="inherit"
